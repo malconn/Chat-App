@@ -9,6 +9,10 @@
     color: hsl(228, 45%, 44%);
 }
 
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
 body {
     background-color: rgba(255, 255, 255, 0.89);
 }
