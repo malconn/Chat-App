@@ -26,13 +26,10 @@ h1 {
 .text-desc {
     float: right;
     width: 450px;
-    padding-right: 60em;
-    clear: left;
-    padding-top: 20em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 40em;
     font-size: 10pt;
 }
 
 .out {
-    opacity: .6;
+    opacity: .5;
 }
