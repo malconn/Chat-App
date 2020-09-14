@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgba(221, 221, 221, 0.411);
 }
 
 h1 {
@@ -35,4 +35,14 @@ h1 {
 
 .out {
     opacity: .5;
+}
+
+.smartphone {
+    width: 500px;
+    background-color: white;
+    float: left;
+    margin-left: 20em;
+    height: 100%;
+    padding: 2em;
+    border-radius: 30px;
 }
