@@ -46,3 +46,24 @@ h1 {
     padding: 2em;
     border-radius: 30px;
 }
+
+.sam-icon {
+    float: left;
+}
+
+.setinha {
+    padding-right: 1.5em;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+}
+
+.setinha:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+}
