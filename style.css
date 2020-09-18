@@ -56,6 +56,8 @@ h1 {
     font-size: 16pt;
     text-decoration: none;
     color: black;
+    display: flex;
+    text-align: center;
 }
 
 .setinha:hover {
@@ -64,6 +66,7 @@ h1 {
 }
 
 .avatar {
-    width: 100px;
+    width: 70px;
     border-radius: 50%;
+    border: solid black 3px;
 }
