@@ -42,8 +42,7 @@ h1 {
     background-color: white;
     float: left;
     margin-left: 20em;
-    height: 100%;
-    padding: 2em;
+    padding: 1em;
     border-radius: 30px;
 }
 
@@ -52,13 +51,14 @@ h1 {
 }
 
 .setinha {
-    font-size: 16pt;
+    font-size: 20pt;
     text-decoration: none;
     color: rgb(255, 255, 255);
     position: relative;
     float: left;
     margin-top: 1em;
     padding-right: 0.5em;
+    padding-left: 1em;
 }
 
 .setinha:hover {
@@ -69,15 +69,36 @@ h1 {
 .avatar {
     width: 70px;
     border-radius: 50%;
-    border: solid black 3px;
+    border: solid white 2px;
     display: flex;
     float: left;
 }
 
 .top-smart {
     width: 500px;
-    height: 100px;
-    padding: 1em;
-    background: linear-gradient(to right, rgb(95, 7, 95), rgb(212, 20, 212));
-    border-radius: 15px;
+    background: linear-gradient(to right, rgb(59, 21, 95), rgb(166, 14, 236));
+    height: 80px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border-radius: 30px;
+}
+
+.samuel,
+.available {
+    float: left;
+    padding-left: 1em;
+    width: 200px;
+    margin: 0;
+    clear: right;
+    color: white;
+    letter-spacing: 0.7px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.samuel {
+    font-size: 18pt;
+}
+
+.available {
+    padding-left: 1.4em;
 }
