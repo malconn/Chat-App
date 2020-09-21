@@ -42,8 +42,9 @@ h1 {
     background-color: white;
     float: left;
     margin-left: 20em;
-    padding: 1em;
+    padding: 1.6em;
     border-radius: 30px;
+    height: 590px;
 }
 
 .sam-icon {
@@ -51,7 +52,7 @@ h1 {
 }
 
 .setinha {
-    font-size: 20pt;
+    font-size: 15pt;
     text-decoration: none;
     color: rgb(255, 255, 255);
     position: relative;
@@ -67,7 +68,7 @@ h1 {
 }
 
 .avatar {
-    width: 70px;
+    width: 50px;
     border-radius: 50%;
     border: solid white 2px;
     display: flex;
@@ -76,8 +77,8 @@ h1 {
 
 .top-smart {
     width: 500px;
-    background: linear-gradient(to right, rgb(59, 21, 95), rgb(166, 14, 236));
-    height: 80px;
+    background: linear-gradient(to right, rgb(74, 21, 95), rgb(183, 43, 248));
+    height: 60px;
     padding-top: 2em;
     padding-bottom: 1em;
     border-radius: 30px;
@@ -87,18 +88,22 @@ h1 {
 .available {
     float: left;
     padding-left: 1em;
-    width: 200px;
     margin: 0;
     clear: right;
+    width: 220px;
     color: white;
-    letter-spacing: 0.7px;
-    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 0.6em;
 }
 
 .samuel {
-    font-size: 18pt;
+    font-size: 16pt;
+    font-weight: bold;
 }
 
 .available {
     padding-left: 1.4em;
+    opacity: 0.6;
+    padding-top: 0;
 }
