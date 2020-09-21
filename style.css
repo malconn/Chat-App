@@ -52,12 +52,13 @@ h1 {
 }
 
 .setinha {
-    padding-right: 1.5em;
     font-size: 16pt;
     text-decoration: none;
-    color: black;
-    display: flex;
-    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    float: left;
+    margin-top: 1em;
+    padding-right: 0.5em;
 }
 
 .setinha:hover {
@@ -69,4 +70,14 @@ h1 {
     width: 70px;
     border-radius: 50%;
     border: solid black 3px;
+    display: flex;
+    float: left;
+}
+
+.top-smart {
+    width: 500px;
+    height: 100px;
+    padding: 1em;
+    background: linear-gradient(to right, rgb(95, 7, 95), rgb(212, 20, 212));
+    border-radius: 15px;
 }
