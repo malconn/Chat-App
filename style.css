@@ -38,13 +38,13 @@ h1 {
 }
 
 .smartphone {
-    width: 500px;
+    width: 450px;
     background-color: white;
     float: left;
     margin-left: 20em;
     padding: 1.6em;
-    border-radius: 30px;
-    height: 590px;
+    border-radius: 50px;
+    height: 800px;
 }
 
 .sam-icon {
@@ -76,12 +76,13 @@ h1 {
 }
 
 .top-smart {
-    width: 500px;
+    width: 450px;
     background: linear-gradient(to right, rgb(74, 21, 95), rgb(183, 43, 248));
-    height: 60px;
+    height: 100px;
     padding-top: 2em;
-    padding-bottom: 1em;
     border-radius: 30px;
+    position: absolute;
+    margin-bottom: 1em;
 }
 
 .samuel,
@@ -106,4 +107,14 @@ h1 {
     padding-left: 1.4em;
     opacity: 0.6;
     padding-top: 0;
+    font-weight: thin;
+    padding-bottom: 3em;
+}
+
+.backcell {
+    background-color: rgba(231, 231, 231, 0.952);
+    z-index: 0;
+    border-radius: 5px;
+    margin-top: 2.8em;
+    padding-top: 1em;
 }
