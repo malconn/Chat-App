@@ -123,10 +123,22 @@ h1 {
     width: 250px;
     padding: 1em;
     margin-left: 2em;
-    background-color: rgb(233, 218, 233);
+    background-color: rgb(224, 218, 233);
     border-radius: 12px;
     margin: 0;
     float: left;
     margin-bottom: 0.3em;
-    color: rgb(167, 33, 167);
+    color: rgb(154, 34, 158);
+}
+
+#dogs {
+    float: right;
+    margin-left: 4em;
+    position: relative;
+}
+
+.dog {
+    width: 80px;
+    padding: 0.5em;
+    border-radius: 40px;
 }
