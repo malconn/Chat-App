@@ -138,7 +138,8 @@ h1 {
 }
 
 .dog {
+    border: solid white 2px;
     width: 80px;
-    padding: 0.5em;
-    border-radius: 40px;
+    padding: 0.2em;
+    border-radius: 35px;
 }
