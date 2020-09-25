@@ -122,24 +122,38 @@ h1 {
 .sam-msg {
     width: 250px;
     padding: 1em;
-    margin-left: 2em;
+    margin-left: 1em;
     background-color: rgb(224, 218, 233);
     border-radius: 12px;
     margin: 0;
-    float: left;
     margin-bottom: 0.3em;
     color: rgb(154, 34, 158);
 }
 
+.sam-msg,
+.value,
+.txt,
+.submit {
+    clear: right;
+}
+
 #dogs {
     float: right;
-    margin-left: 4em;
-    position: relative;
 }
 
 .dog {
-    border: solid white 2px;
     width: 80px;
-    padding: 0.2em;
     border-radius: 35px;
+}
+
+.me-msg {
+    float: right;
+    width: 250px;
+    padding: 1em;
+    margin-right: 1em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin: 0;
+    margin-bottom: 0.3em;
+    color: black;
 }
