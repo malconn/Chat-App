@@ -41,7 +41,7 @@ h1 {
     width: 450px;
     background-color: white;
     float: left;
-    margin-left: 20em;
+    margin-left: 40em;
     padding: 1.6em;
     border-radius: 50px;
     height: 850px;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .setinha {
-    font-size: 15pt;
+    font-size: 17pt;
     text-decoration: none;
     color: rgb(255, 255, 255);
     position: relative;
@@ -115,7 +115,7 @@ h1 {
     background-color: rgba(231, 231, 231, 0.952);
     z-index: 0;
     border-radius: 5px;
-    margin-top: 2.8em;
+    margin-top: 3.2em;
     padding: 1em;
 }
 
@@ -165,14 +165,34 @@ h1 {
     background-color: transparent;
     color: gray;
     float: left;
-    padding-left: 1em;
+    align-content: center;
+    margin-left: 1em;
+    width: 300px;
+    height: 32px;
 }
 
 .box-txt-bottom {
     text-align: center;
     margin-top: 1em;
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 1.6em;
     background-color: white;
     border-radius: 25px;
+}
+
+.submit {
+    width: 50px;
+    height: 32px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(51, 5, 51);
+    color: white;
+    font-size: 12pt;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.submit:hover {
+    color: black;
+    background-color: purple;
 }
