@@ -25,6 +25,14 @@ h1 {
     margin-bottom: 0;
 }
 
+.backcell {
+    background-color: rgba(231, 231, 231, 0.507);
+    z-index: 0;
+    padding: 1em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
 .text-desc {
     float: right;
     width: 450px;
@@ -42,9 +50,9 @@ h1 {
     background-color: white;
     float: left;
     margin-left: 40em;
-    padding: 1.6em;
+    padding: 1em;
     border-radius: 50px;
-    height: 850px;
+    height: 780px;
 }
 
 .sam-icon {
@@ -76,13 +84,15 @@ h1 {
 }
 
 .top-smart {
-    width: 450px;
+    width: 410px;
     background: linear-gradient(to right, rgb(74, 21, 95), rgb(183, 43, 248));
-    height: 100px;
-    padding-top: 2em;
-    border-radius: 30px;
-    position: absolute;
-    margin-bottom: 1em;
+    height: 70px;
+    padding: 1.3em;
+    z-index: 1;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .samuel,
@@ -111,20 +121,12 @@ h1 {
     padding-bottom: 3em;
 }
 
-.backcell {
-    background-color: rgba(231, 231, 231, 0.952);
-    z-index: 0;
-    border-radius: 5px;
-    margin-top: 3.2em;
-    padding: 1em;
-}
-
 .sam-msg {
     width: 250px;
     padding: 1em;
     margin-left: 1em;
     background-color: rgb(224, 218, 233);
-    border-radius: 12px;
+    border-radius: 20px;
     margin: 0;
     color: rgb(154, 34, 158);
 }
@@ -146,16 +148,21 @@ h1 {
     border-radius: 25px;
 }
 
-.me-msg {
+.me-msg,
+.me-msg2 {
     float: right;
     width: 250px;
     padding: 1em;
     margin-right: 1em;
     background-color: rgb(255, 255, 255);
-    border-radius: 12px;
+    border-radius: 20px;
     margin: 0;
     margin-bottom: 0.5em;
     color: black;
+}
+
+.me-msg2 {
+    width: 200px;
 }
 
 .txt {
@@ -173,11 +180,11 @@ h1 {
 
 .box-txt-bottom {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
     padding-top: 1em;
-    padding-bottom: 1.6em;
+    padding-bottom: 1em;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 40px;
 }
 
 .submit {
