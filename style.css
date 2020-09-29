@@ -127,7 +127,9 @@ h1 {
     padding: 1em;
     margin-left: 1em;
     background-color: rgb(224, 218, 233);
-    border-radius: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     margin: 0;
     color: rgb(154, 34, 158);
 }
@@ -156,8 +158,10 @@ h1 {
     padding: 1em;
     margin-right: 1em;
     background-color: rgb(255, 255, 255);
-    border-radius: 20px;
     margin: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     margin-bottom: 0.5em;
     color: black;
 }
