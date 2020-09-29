@@ -60,7 +60,7 @@ h1 {
 }
 
 .setinha {
-    font-size: 17pt;
+    font-size: 15pt;
     text-decoration: none;
     color: rgb(255, 255, 255);
     position: relative;
@@ -110,7 +110,7 @@ h1 {
 }
 
 .samuel {
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: bold;
 }
 
@@ -196,10 +196,10 @@ h1 {
     width: 50px;
     height: 40px;
     border: none;
-    border-radius: 16em;
+    border-radius: 18em;
     background-color: rgb(51, 5, 51);
     color: white;
-    font-size: 17pt;
+    font-size: 22pt;
     font-family: monospace;
     font-weight: bold;
 }
