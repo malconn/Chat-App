@@ -84,10 +84,11 @@ h1 {
 }
 
 .top-smart {
-    width: 410px;
+    width: 420px;
     background: linear-gradient(to right, rgb(74, 21, 95), rgb(183, 43, 248));
     height: 70px;
-    padding: 1.3em;
+    padding-top: 1.5em;
+    padding: 1em;
     z-index: 1;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -189,12 +190,12 @@ h1 {
 
 .submit {
     width: 50px;
-    height: 32px;
+    height: 40px;
     border: none;
-    border-radius: 15px;
+    border-radius: 16em;
     background-color: rgb(51, 5, 51);
     color: white;
-    font-size: 12pt;
+    font-size: 17pt;
     font-family: monospace;
     font-weight: bold;
 }
