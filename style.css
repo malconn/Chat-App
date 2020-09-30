@@ -52,7 +52,7 @@ h1 {
     margin-left: 40em;
     padding: 1em;
     border-radius: 50px;
-    height: 825px;
+    height: 880px;
 }
 
 .sam-icon {
@@ -190,7 +190,7 @@ h1 {
     padding-bottom: 1em;
     background-color: white;
     border-radius: 40px;
-    margin-top: 1.5em;
+    margin-top: 4.6em;
 }
 
 .submit {
@@ -212,7 +212,7 @@ h1 {
 
 .walk {
     text-decoration: none;
-    background: linear-gradient(to right, rgb(74, 21, 95), rgb(183, 43, 248));
+    background: linear-gradient(to left, rgb(80, 11, 107), rgb(177, 81, 221));
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -221,16 +221,23 @@ h1 {
     float: left;
     clear: right;
     width: 350px;
-    height: 50px;
     text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    margin-top: 1em;
 }
 
 .opti {
     float: left;
-    margin-top: 1.2em;
     margin-left: 1.2em;
     width: 20px;
     height: 20px;
     border: none;
     border-radius: 50%;
+}
+
+.numeroo {
+    float: right;
+    padding-right: 1em;
+    font-size: 16pt;
 }
