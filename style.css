@@ -214,7 +214,7 @@ h1 {
 
 .walk {
     text-decoration: none;
-    background: linear-gradient(to left, rgb(80, 11, 107), rgb(177, 81, 221));
+    background: linear-gradient(to left, rgb(104, 11, 107), rgb(221, 81, 209));
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -230,7 +230,7 @@ h1 {
 }
 
 .walk:hover {
-    background: linear-gradient(to left, rgb(128, 23, 170), rgb(199, 114, 238));
+    background: linear-gradient(to left, rgb(153, 23, 170), rgb(238, 114, 221));
     transition: 0.4s;
     color: black;
 }
