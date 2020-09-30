@@ -179,28 +179,29 @@ h1 {
     color: gray;
     float: left;
     align-content: center;
-    margin-left: 1em;
+    margin-left: 1.2em;
     width: 300px;
     height: 32px;
+    padding-left: 1em;
 }
 
 .box-txt-bottom {
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     background-color: white;
     border-radius: 40px;
     margin-top: 4.6em;
 }
 
 .submit {
-    width: 50px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border: none;
     border-radius: 18em;
     background-color: rgb(51, 5, 51);
     color: white;
-    font-size: 22pt;
+    font-size: 23pt;
     font-family: monospace;
     font-weight: bold;
 }
@@ -208,6 +209,7 @@ h1 {
 .submit:hover {
     color: black;
     background-color: purple;
+    transition: 0.3s;
 }
 
 .walk {
@@ -227,6 +229,12 @@ h1 {
     margin-top: 1em;
 }
 
+.walk:hover {
+    background: linear-gradient(to left, rgb(128, 23, 170), rgb(199, 114, 238));
+    transition: 0.4s;
+    color: black;
+}
+
 .opti {
     float: left;
     margin-left: 1.2em;
@@ -234,6 +242,8 @@ h1 {
     height: 20px;
     border: none;
     border-radius: 50%;
+    color: white;
+    opacity: 0.7;
 }
 
 .numeroo {
