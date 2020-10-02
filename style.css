@@ -55,9 +55,11 @@ h1 {
     width: 480px;
     background-color: white;
     float: left;
-    margin-left: 40em;
+    margin-left: 30em;
     padding: 1.4em;
     border-radius: 50px;
+    z-index: 1;
+    position: absolute;
     height: 900px;
 }
 
@@ -266,4 +268,17 @@ h1 {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
+}
+
+.roxoback {
+    width: 700px;
+    background: linear-gradient(to top, rgb(104, 11, 107), rgb(221, 81, 209));
+    border: none;
+    float: left;
+    height: 800px;
+    display: flex;
+    z-index: 0;
+    position: relative;
+    border-bottom-left-radius: 25em;
+    border-bottom-right-radius: 25em;
 }
